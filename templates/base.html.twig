@@ -25,6 +25,11 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="{{ path('custom', {name: 'kiran'}) }}">Hi Kiran</a></li>
+                <li><a href="{{ path('post.index') }}">Post List</a></li>
+                 <li><a href="{{ path('post.create') }}">Add Post</a></li>
+                {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+                <li><a href="{{ path('app_logout') }}">Logout</a></li>
+                {% endif %}
                
             </ul>
         </div><!-- /.container-fluid -->

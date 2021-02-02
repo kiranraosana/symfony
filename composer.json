@@ -23,6 +23,7 @@
         "symfony/http-client": "4.4.*",
         "symfony/intl": "4.4.*",
         "symfony/mailer": "4.4.*",
+        "symfony/maker-bundle": "^1.28",
         "symfony/monolog-bundle": "^3.1",
         "symfony/process": "4.4.*",
         "symfony/property-access": "4.4.*",
@@ -30,11 +31,13 @@
         "symfony/proxy-manager-bridge": "4.4.*",
         "symfony/security-bundle": "4.4.*",
         "symfony/serializer": "4.4.*",
+        "symfony/stopwatch": "^4.4",
         "symfony/translation": "4.4.*",
         "symfony/twig-bundle": "^4.4",
         "symfony/validator": "4.4.*",
         "symfony/var-dumper": "4.4.*",
         "symfony/web-link": "4.4.*",
+        "symfony/web-profiler-bundle": "4.4.*",
         "symfony/web-server-bundle": "4.4.*",
         "symfony/yaml": "4.4.*",
         "twig/extra-bundle": "^2.12|^3.0",
@@ -43,10 +46,7 @@
     "require-dev": {
         "symfony/browser-kit": "^4.4",
         "symfony/css-selector": "^4.4",
-        "symfony/maker-bundle": "^1.0",
-        "symfony/phpunit-bridge": "^5.2",
-        "symfony/stopwatch": "^4.4",
-        "symfony/web-profiler-bundle": "^4.4"
+        "symfony/phpunit-bridge": "^5.2"
     },
     "config": {
         "preferred-install": {
